@@ -2,6 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 
+## Description
+
+The AngularThreejsApp is a 3D model viewer application built with Angular and Three.js. It allows users to select different geometric shapes (like cubes and cones) and change their colors dynamically. The application also provides options to start and stop the animation of the selected shape, making it an interactive tool for visualizing 3D graphics.
+
+## Features
+
+- **Shape Selection**: Users can choose between different 3D shapes to display.
+- **Color Selection**: Users can change the color of the selected shape from a predefined set of colors.
+- **Animation Control**: The application allows users to start and stop the rotation animation of the 3D shape.
+- **Interactive Canvas**: The 3D model is rendered in a responsive canvas element.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

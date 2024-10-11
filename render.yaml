@@ -5,4 +5,3 @@ services:
     plan: free
     buildCommand: "npm install && npm run build --prod"
     startCommand: "npx serve -s dist/angular-threejs-app"
-    staticPublishPath: "dist/angular-threejs-app"

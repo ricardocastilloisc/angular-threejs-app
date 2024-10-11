@@ -110,7 +110,7 @@ export class ModelViewerComponent implements OnInit {
   // Carga un objeto 3D desde un archivo OBJ
   private loadOBJ(shapeType: string) {
     const loader = new OBJLoader(); // Crea un nuevo cargador de OBJ
-    const objUrl = `http://localhost:8000/shapes/${shapeType ? shapeType.toLowerCase() : 'cube'}`; // URL del objeto
+    const objUrl = `https://fastapi-app-79bt.onrender.com/shapes/${shapeType ? shapeType.toLowerCase() : 'cube'}`; // URL del objeto
 
     loader.load(objUrl, (object) => {
       if (this.currentObject) {
